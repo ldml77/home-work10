@@ -1,0 +1,60 @@
+.task-list {
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.task-item {
+	color: #555;
+	border: 1px solid #bbb;
+	cursor: pointer;
+	padding: 10px 20px;
+	margin: 5px 0;
+	font-size: 20px;
+}	
+
+.delete-btn {
+	float: right;
+}
+
+input.errorInput, input:focus.errorInput {
+	border-color: red;
+}
+
+.error{
+	color: red;
+}
+
+.hidden {
+	display: none;
+}
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.table th,
+.table td {
+	border: 1px solid #000000;
+	padding: 10px;
+}
+.caption {
+	padding: 10px;
+	font-size: larger;
+	font-weight: bold;
+}
+.addBtn {
+  padding: 5px 10px;
+  background: #d9d9d9; 
+  color: #555;
+  text-align: center;  
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 20%;
+	margin-top: 20px;
+}
+.addBtn:hover {
+  background-color: #bbb;
+}
